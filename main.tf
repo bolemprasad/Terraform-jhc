@@ -7,25 +7,18 @@ module "s3_bucket" {
   bucket_name = var.bucket_name
   environment = var.environment
 }
+# resource "aws_dynamodb_table" "terraform_lock" {
+#   name         = "terraform-lock-table"
+#   billing_mode = "PAY_PER_REQUEST"
+#   hash_key     = "LockID"
 
-<<<<<<< HEAD
-############33
-=======
+#   attribute {
+#     name = "LockID"
+#     type = "S"
+#   }
 
-
-resource "aws_dynamodb_table" "terraform_lock" {
-  name         = "terraform-lock-table"
-  billing_mode = "PAY_PER_REQUEST"
-  hash_key     = "LockID"
-
-  attribute {
-    name = "LockID"
-    type = "S"
-  }
-
-  tags = {
-    Name        = "terraform-lock-table"
-    Environment = var.environment
-  }
-}
->>>>>>> b8077a0 (Add .gitignore to exclude tfstate and tfvars files)
+#   tags = {
+#     Name        = "terraform-lock-table"
+#     Environment = var.environment
+#   }
+# }
