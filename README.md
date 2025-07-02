@@ -7,17 +7,8 @@ This project demonstrates how to use Terraform modules to provision an **Amazon 
 
 ## 📁 Project Structure
 
-Terraform-jhc/
-├── main.tf # Root configuration calling the module
-├── variables.tf # Input variables used in main.tf
-├── outputs.tf # Output values exposed from the module
-├── terraform.tfvars # Actual variable values (excluded from Git)
-├── modules/
-│ └── s3/
-│ ├── main.tf # S3 bucket resource definition
-│ ├── variables.tf # Variables for the module
-│ └── outputs.tf # Outputs for bucket name and ARN
-└── .gitignore # Excludes sensitive and generated files
+![image](https://github.com/user-attachments/assets/c89cc681-ea5e-42dc-87c1-d4029bc2421b)
+
 
 
 
