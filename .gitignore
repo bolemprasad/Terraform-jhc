@@ -1,0 +1,12 @@
+# SSH Keys
+prasad
+prasad.pub
+sample.pub
+
+# Terraform sensitive files
+*.tfvars
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
