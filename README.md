@@ -1,4 +1,3 @@
-############# Terraform-jhc ####################
 # Terraform S3 Bucket Module
 
 This project demonstrates how to use Terraform modules to provision an **Amazon S3 bucket** in AWS. It follows best practices by organizing the Terraform code with reusable modules, variables, outputs, and separate environment configuration files.
